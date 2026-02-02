@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website | {{ title }}</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="antialiased flex flex-col min-h-screen">
+
+    {% include "header.html" %}
+
+    <main class="flex-grow">
+        {{ content | safe }}
+    </main>
+
+    {% include "footer.html" %}
+
+    <script src="/js/date.js"></script>
+</body>
+</html>

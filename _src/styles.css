@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    font-size: 3rem;
+    margin-top: 50px;
+    font-weight: 600;
+}

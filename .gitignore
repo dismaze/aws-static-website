@@ -1,0 +1,8 @@
+node_modules/
+_site/
+.DS_Store
+terraform/**/.terraform/
+terraform/**/.terraform.lock.hcl
+terraform/**/*.tfstate*
+_src/img/gallery/manifest.json
+package-lock.json
