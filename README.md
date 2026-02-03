@@ -177,7 +177,7 @@ The gallery works as follows:
 
 1. **Upload images** to `s3://bucket-name/img/gallery/`
 2. **Lambda triggered** automatically by S3 event
-3. **Lambda generates** `manifest.json` containing:
+3. **Lambda generates** `manifest.json`
 4. **Your JavaScript** fetches `manifest.json` and displays images in a gallery modal
 
 > ⚠️ **Note:** The gallery JavaScript is **not provided** in this template. You must create your own JavaScript to:
