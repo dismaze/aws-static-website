@@ -169,7 +169,7 @@ README.md                               # This file
 | **ACM** | Free SSL/TLS certificate for HTTPS | `aws_acm_certificate.main` |
 | **Lambda** | Generates gallery manifest automatically | `aws_lambda_function.gallery_generator` |
 | **DynamoDB** | Locks Terraform state (prevents conflicts) | `aws_dynamodb_table.terraform_locks` |
-| **IAM** | User & permissions for GitHub Actions | `github-actions-bot` user |
+| **IAM** | User & permissions for GitHub Actions | `website-deployer` user |
 
 ### Gallery System
 
